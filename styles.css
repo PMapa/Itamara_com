@@ -1,0 +1,30 @@
+body {
+    background-color: #808080;
+}
+:hover{
+    color: #f00;
+}
+nav{
+    text-align: right;
+    padding-top: 1rem;
+    background-color: whitesmoke;
+    width: 100%;
+    position: fixed;
+
+    font-family: "Caveat", cursive;
+}
+
+ul, li {
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+ul{
+    padding-left: 40rem;
+}
+
+#logo {
+    width: 18.0rem;
+    border-radius: 40px 40px 40px 40px;
+    background-color: white;
+}
