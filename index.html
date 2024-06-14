@@ -30,10 +30,14 @@
   <main>
     <section>
       <h3>Quem Somos</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quia deleniti delectus, voluptatum aperiam iste repellendus! Ab facilis alias quae esse harum! Impedit facere sapiente consequuntur hic in quas nam.</p>
-      <p>Lore m ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quia deleniti delectus, voluptatum aperiam iste repellendus! Ab facilis alias quae esse harum! Impedit facere sapiente consequuntur hic in quas nam.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quia deleniti delectus, voluptatum aperiam iste repellendus! Ab facilis alias quae esse harum! Impedit facere sapiente consequuntur hic in quas nam.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quia deleniti delectus, voluptatum aperiam iste repellendus! Ab facilis alias quae esse harum! Impedit facere sapiente consequuntur hic in quas nam.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quia deleniti delectus, voluptatum aperiam
+        iste repellendus! Ab facilis alias quae esse harum! Impedit facere sapiente consequuntur hic in quas nam.</p>
+      <p>Lore m ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quia deleniti delectus, voluptatum aperiam
+        iste repellendus! Ab facilis alias quae esse harum! Impedit facere sapiente consequuntur hic in quas nam.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quia deleniti delectus, voluptatum aperiam
+        iste repellendus! Ab facilis alias quae esse harum! Impedit facere sapiente consequuntur hic in quas nam.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quia deleniti delectus, voluptatum aperiam
+        iste repellendus! Ab facilis alias quae esse harum! Impedit facere sapiente consequuntur hic in quas nam.</p>
     </section>
 
     <section>
@@ -43,30 +47,48 @@
         <figcaption>Foto de um quarto Master.</figcaption>
       </figure>
     </section>
+
     <section>
       <h3>Não perca tempo! Faça já sua reserva!</h3>
-      Nome:
-      Tipo de Quarto:
-      Data:
-      Hora:
-      Mensagem:
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nameInput" name="nome" required size="10" />
+
+        <label for="quarto">Tipo de Quarto:</label>
+        <input type="text" id="quartoInput" name="quarto" required />
+
+        <label for="data">Data:</label>
+        <input type="date" id="dataInput" name="data" required />
+        
+        <label for="hora">Hora:</label>
+        <input type="time" id="horaInput" name="hora" required />
+        
+        <label for="mensagem">Mensagem:</label>
+        <input type="text" id="mensagemInput" name="mensagem" required size="50" />
+      </form>
     </section>
   </main>
   <footer>
-    <div>
-      <h4>TELEFONES</h4> 
-      <p>(31) 99894-8494</p>
+    <div class="foot">
+      <h4>TELEFONES</h4>
       <p>(31) 3105-0700</p>
+      <p>(31) 99894-8494</p>
     </div>
-    <div>
-      [api do maps]
+    <div class="foot">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.3506673685697!2d-43.71532062476355!3d-20.285747381184073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa4080ea528bff3%3A0x25d367c28e96ff1e!2sItamara%20Motel!5e0!3m2!1spt-BR!2sbr!4v1718379350687!5m2!1spt-BR!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-    <div>
-      <h4>ENDEREÇO</h4>
+    <div class="foot">
+      <h4>ENDEREÇOS</h4>
       <p>Rodovia dos Incofidentes (BR-356), km 64, s/n</p>
-      <p>CEP: 35412-000, Coelhos | Ouro Preto - MG</p> 
+      <p>CEP: 35412-000, Coelhos | Ouro Preto - MG</p>
+
+      <br>
+      <p>atendimento@itamara.com.br</p>
     </div>
-    <div>
+    <div class="foot">
       [api trip advisor]
     </div>
   </footer>
