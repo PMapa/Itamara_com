@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -14,6 +14,7 @@
 
 <body>
   <header>
+    <br>
     <a href="/"> <img src="/imagens/logo.PNG" alt="Logomarca Itamara Motel" id="logo"> </a>
 
     <nav>
@@ -40,32 +41,101 @@
         iste repellendus! Ab facilis alias quae esse harum! Impedit facere sapiente consequuntur hic in quas nam.</p>
     </section>
 
-    <section>
-      <h3>Nossas instalações</h3>
-      <figure>
-        <img src="/imagens/quartoMaster/Master (2).jpg">
-        <figcaption>Foto de um quarto Master.</figcaption>
-      </figure>
+    <h3>Nossas instalações</h3>
+    <section id="suitesList">
+
+      <div class="cardSuites">
+        <figure>
+          <img class="figureCard" src="/imagens/quartoMaster/Master (1).jpg">
+          <figcaption>Foto de um quarto Master.</figcaption>
+        </figure>
+
+        <p class="descricaoSuites">Esse quarto é equipado com:</p>
+      </div>
+
+      <div class="cardSuites">
+        <figure>
+          <img class="figureCard" src="/imagens/quartoSupra/Supra (2).jpg">
+          <figcaption>Foto de um quarto Supra.</figcaption>
+        </figure>
+      </div>
+
+      <div  class="cardSuites">
+        <figure>
+          <img  class="figureCard" src="/imagens/quartoPremium/Premium (3).jpg">
+          <figcaption>Foto de um quarto Premium.</figcaption>
+        </figure>
+      </div>
+      
+      <div class="cardSuites">
+        <figure>
+          <img class="figureCard" src="/imagens/quartoStandart/Standart (1).jpg">
+          <figcaption>Foto de um quarto Standart.</figcaption>
+        </figure>
+      </div>
     </section>
 
-    <section>
-      <h3>Não perca tempo! Faça já sua reserva!</h3>
+
+    <section id="formu">
+      <h3>Reserve logo fidumapeste!</h3>
       <form>
-        <label for="nome">Nome:</label>
-        <input type="text" id="nameInput" name="nome" required size="10" />
+        <label for="nome" class="formulario">Nome:</label>
+        <input type="text" id="nameInput" name="nome" required size="10" class="formulario" />
 
-        <label for="quarto">Tipo de Quarto:</label>
-        <input type="text" id="quartoInput" name="quarto" required />
+        <br>
 
-        <label for="data">Data:</label>
-        <input type="date" id="dataInput" name="data" required />
-        
-        <label for="hora">Hora:</label>
-        <input type="time" id="horaInput" name="hora" required />
-        
-        <label for="mensagem">Mensagem:</label>
-        <input type="text" id="mensagemInput" name="mensagem" required size="50" />
+        <fieldset>
+          <legend>Selecione a suíte desejada:</legend>
+
+          <div>
+            <input type="radio" id="standart" name="quarto" value="standart" />
+            <label for="standart">Standart</label>
+          </div>
+
+          <div>
+            <input type="radio" id="premium" name="quarto" value="premium" />
+            <label for="premium">Premium</label>
+          </div>
+
+          <div>
+            <input type="radio" id="supra" name="quarto" value="supra" />
+            <label for="supra">Supra</label>
+          </div>
+
+          <div>
+            <input type="radio" id="master" name="quarto" value="master" />
+            <label for="master">Master</label>
+          </div>
+
+          <div>
+            <input type="radio" id="luxo" name="quarto" value="luxo" />
+            <label for="luxo">Luxo</label>
+          </div>
+        </fieldset>
+
+        <br>
+
+        <label for="data" class="formulario">Data:</label>
+        <input type="date" id="dataInput" name="data" required class="formulario" />
+
+        <br>
+
+        <label for="hora" class="formulario">Hora:</label>
+        <input type="time" id="horaInput" name="hora" required class="formulario" />
+
+        <br>
+
+        <label for="mensagem" class="formulario">Mensagem:</label>
+        <input type="text" id="mensagemInput" name="mensagem" required size="50" class="formulario" />
+
+        <br>
+
+        <button>Não perca tempo! Faça já sua reserva!</button>
+
       </form>
+
+      <br>
+
     </section>
   </main>
   <footer>
@@ -90,6 +160,16 @@
     </div>
     <div class="foot">
       [api trip advisor]
+
+      <div class="CJQ04">
+        <div><span style="margin-right:5px" class="Aq14fc" aria-hidden="true">3,2</span><span class="z3HNkc"
+            aria-label="Classificado como 3,2 de 5," role="img">
+            <div aria-hidden="true"><span style="width:calc(calc(12px + 2px) * 3 + calc(12px / 2) * 0)"></span></div>
+          </span><a class="hqzQac" style="white-space:nowrap;font-size:14px;margin-left:5px"
+            href="/travel/search?g2lb=4814050,4874190,4893075,4965990,72277293,72302247,72317059,72406588,72414906,72421566,72462234,72470899,72471280,72472051,72473841,72481458,72485658,72486593,72494250,72513513,72536387,72538597,72549171,72570850,72586336,72597757,72597926,72602734,72606236,72608658,72616120,72619172,72619927,72620306,72626058&amp;hl=pt-BR&amp;gl=br&amp;cs=1&amp;ssta=1&amp;q=Itamara+Motel&amp;ts=CAEaRQonEiUyIzB4YTQwODBlYTUyOGJmZjM6MHgyNWQzNjdjMjhlOTZmZjFlEhoSFAoHCOgPEAYYGRIHCOgPEAYYGhgBMgIQAA&amp;qs=CAEyE0Nnb0ludjdiOUtqNDJla2xFQUU4AkIJCR7_lo7CZ9MlQgkJHv-WjsJn0yU&amp;ap=ugEHcmV2aWV3cw&amp;ictx=111&amp;ved=1t:1250"
+            ping="/url?sa=t&amp;source=web&amp;rct=j&amp;opi=89978449&amp;url=/travel/search%3Fg2lb%3D4814050,4874190,4893075,4965990,72277293,72302247,72317059,72406588,72414906,72421566,72462234,72470899,72471280,72472051,72473841,72481458,72485658,72486593,72494250,72513513,72536387,72538597,72549171,72570850,72586336,72597757,72597926,72602734,72606236,72608658,72616120,72619172,72619927,72620306,72626058%26hl%3Dpt-BR%26gl%3Dbr%26cs%3D1%26ssta%3D1%26q%3DItamara%2BMotel%26ts%3DCAEaRQonEiUyIzB4YTQwODBlYTUyOGJmZjM6MHgyNWQzNjdjMjhlOTZmZjFlEhoSFAoHCOgPEAYYGRIHCOgPEAYYGhgBMgIQAA%26qs%3DCAEyE0Nnb0ludjdiOUtqNDJla2xFQUU4AkIJCR7_lo7CZ9MlQgkJHv-WjsJn0yU%26ap%3DugEHcmV2aWV3cw%26ictx%3D111%26ved%3D1t:1250&amp;ved=2ahUKEwiX05H4vNuGAxXelZUCHafBA8UQ4gl6BAhDEAU">102
+            avaliações no Google</a></div>
+      </div>
     </div>
   </footer>
 </body>
