@@ -1,12 +1,12 @@
 import React from "react";
 import './styles/App.css';
 
-import Header from "./Header/Header.jsx";
-import Sobre from "./Sobre/Sobre.jsx";
-import Lista from "./Lista/Lista.jsx";
-import Descricao from "./Descricao/Descricao.jsx";
-import Formulario from "./Formulario/Formulario.jsx";
-import Footer from "./Footer/Footer.jsx";
+import Header from "./components/Header/Header.jsx";
+import Sobre from "./components/Sobre/Sobre.jsx";
+import Lista from "./components/Lista/Lista.jsx";
+import Descricao from "./components/Descricao/Descricao.jsx";
+import Formulario from "./components/Formulario/Formulario.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 class App extends React.Component {
 
@@ -26,7 +26,7 @@ class App extends React.Component {
           </section>
 
           <section id="secaoSuites">
-            <Descricao />
+            
           </section>
 
           <section id="formu">
