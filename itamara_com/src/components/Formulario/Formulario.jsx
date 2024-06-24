@@ -15,30 +15,20 @@ class Formulario extends React.Component {
                     <fieldset>
                         <legend>Selecione a suíte desejada:</legend>
 
-                        <div>
-                            <input type="radio" id="standart" name="quarto" value="standart" />
-                            <label for="standart">Standart</label>
-                        </div>
-
-                        <div>
-                            <input type="radio" id="premium" name="quarto" value="premium" />
-                            <label for="premium">Premium</label>
-                        </div>
-
-                        <div>
-                            <input type="radio" id="supra" name="quarto" value="supra" />
-                            <label for="supra">Supra</label>
-                        </div>
-
-                        <div>
-                            <input type="radio" id="master" name="quarto" value="master" />
-                            <label for="master">Master</label>
-                        </div>
-
-                        <div>
-                            <input type="radio" id="luxo" name="quarto" value="luxo" />
-                            <label for="luxo">Luxo</label>
-                        </div>
+                        <input type="radio" id="standart" name="quarto" value="standart" />
+                        <label for="standart">Standart</label>
+                        <br></br><br></br>
+                        <input type="radio" id="premium" name="quarto" value="premium" />
+                        <label for="premium">Premium</label>
+                        <br></br><br></br>
+                        <input type="radio" id="supra" name="quarto" value="supra" />
+                        <label for="supra">Supra</label>
+                        <br></br><br></br>
+                        <input type="radio" id="master" name="quarto" value="master" />
+                        <label for="master">Master</label>
+                        <br></br><br></br>
+                        <input type="radio" id="luxo" name="quarto" value="luxo" />
+                        <label for="luxo">Luxo</label>
                     </fieldset>
 
                     <br></br>
@@ -55,7 +45,7 @@ class Formulario extends React.Component {
 
                     <br></br>
                     <button>Não perca tempo! Faça já sua reserva!</button>
-                    
+
                 </form>
                 <br></br>
             </>

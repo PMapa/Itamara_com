@@ -1,0 +1,25 @@
+/* footer {
+    
+} */
+
+
+#rodap {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#socialIcos {
+    display: flex;
+    gap: 3rem;
+    background-color: aliceblue;
+    color: aliceblue;
+}
+
+#facebook, #instagram, #whatsapp {
+    width: 3rem;
+}

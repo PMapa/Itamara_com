@@ -1,15 +1,18 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
     text-decoration: none;
 }
-
+a:visited {
+    text-decoration: none;
+}
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #bfbfbf;
+    text-align: center;
 }
 
-a:hover{
+a:hover, button:hover, input:hover{
     color: #f00;
+    font-weight: 600;
 }
 
 main {

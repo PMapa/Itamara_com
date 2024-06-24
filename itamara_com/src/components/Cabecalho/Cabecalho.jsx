@@ -1,6 +1,6 @@
 import React from "react";
 
-import cabecalho from "./cabecalho.css";
+import Cabecalho from "./Cabecalho.css";
 
 import logoImg from "../../assets/imgs/logo.PNG";
 
@@ -13,10 +13,10 @@ class Header extends React.Component {
 
                 <nav>
                     <ul>
-                        <li> <a href="/">Quem Somos</a> </li>
-                        <li> <a href="/">Suítes</a> </li>
-                        <li> <a href="/">Reservas</a> </li>
-                        <li> <a href="/">Contato</a> </li>
+                        <li> <a href="#sobreNos">Quem Somos</a> </li>
+                        <li> <a href="#suitesList">Suítes</a> </li>
+                        <li> <a href="#formu">Reservas</a> </li>
+                        <li> <a href="#rodap">Contato</a> </li>
                     </ul>
                 </nav>
             </header>

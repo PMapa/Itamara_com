@@ -1,11 +1,11 @@
 import React from "react";
 import './styles/App.css';
 
-import Header from "./components/Header/Header.jsx";
+import Header from "./components/Cabecalho/Cabecalho.jsx";
 import Sobre from "./components/Sobre/Sobre.jsx";
 import Lista from "./components/Lista/Lista.jsx";
 import Formulario from "./components/Formulario/Formulario.jsx";
-import Footer from "./components/Footer/Footer.jsx";
+import Rodape from "./components/Rodape/Rodape.jsx";
 
 class App extends React.Component {
 
@@ -26,17 +26,13 @@ class App extends React.Component {
             <Lista />
           </section>
 
-          <section id="secaoSuites">
-            
-          </section>
-
           <section id="formu">
             <Formulario />
           </section>
         </main>
 
         <footer>
-          <Footer />
+          <Rodape />
         </footer>
 
       </>

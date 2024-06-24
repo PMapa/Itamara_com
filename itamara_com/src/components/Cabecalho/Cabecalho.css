@@ -5,8 +5,12 @@ header{
 }
 
 nav{
-    position: sticky;
     font-family: "Caveat", cursive;
+    
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: aliceblue;
 }
 
 ul, li { 
