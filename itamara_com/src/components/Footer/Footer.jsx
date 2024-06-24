@@ -1,5 +1,7 @@
 import React from "react";
 
+import pezalho from "./pezalho.css";
+
 class Footer extends React.Component {
 
     render() {

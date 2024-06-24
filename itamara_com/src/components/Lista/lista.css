@@ -1,23 +1,22 @@
 #suitesList{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: center;
     
 }
 
-.cardSuites {
-    padding: 0%;
-    background-color: aliceblue;
+#cardSuites {
     width: 85%;
-    margin: 0.5rem;
+
     border-radius: 0.8rem;
+    display: flex;
+    gap: 2rem;
+
+    align-content: center;
 }
 
 .figureCard {
     width: 100%;
     border-radius: 0.8rem;
-}
-
-.descricaoSuites{
-    
+    padding: 1rem;
 }

@@ -19,17 +19,6 @@ main {
     align-items: center;
 }
 
-/* div {
+div {
     padding: 1rem;
-} */
-
-
-footer {
-    text-align: center;
-    background-color: black;
-    color: aliceblue;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
 }

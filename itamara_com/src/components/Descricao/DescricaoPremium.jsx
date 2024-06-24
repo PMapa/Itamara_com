@@ -5,12 +5,12 @@ class Descricao extends React.Component {
     render() {
         return (
             <>
-                <section className="descricaoCard">
+                <section className="descricaoArea">
                     <div>
-                        <h5>Sobre a suíte Master</h5>
+                        <h5>Sobre a suíte Standart</h5>
 
                         <p>
-                            Espaço de 86m2, Hidromassagem Jacuzzi, Cama queen size, TV 42” por assinatura com canais privados, frigobar completos, ar condicionado quente/frio, wi-fi, sistema de automação inteligente (que controla todos os equipamentos e iluminação do quarto) e decoração clean.
+                            Espaço de 86m2, Cama queen size, TV 42” por assinatura com canais privados, frigobar completos, ar condicionado quente/frio, wi-fi, sistema de automação inteligente (que controla todos os equipamentos e iluminação do quarto) e decoração clean.
                         </p>
                         <br></br>
                         <p>
