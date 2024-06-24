@@ -1,5 +1,6 @@
 import React from "react";
 
+import form from "./form.css";
 class Formulario extends React.Component {
 
     render() {

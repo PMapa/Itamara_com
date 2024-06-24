@@ -1,5 +1,7 @@
 import React from "react";
 
+import cabecalho from "./cabecalho.css";
+
 import logoImg from "../../assets/imgs/logo.PNG";
 
 class Header extends React.Component {

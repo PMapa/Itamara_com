@@ -4,7 +4,6 @@ import './styles/App.css';
 import Header from "./components/Header/Header.jsx";
 import Sobre from "./components/Sobre/Sobre.jsx";
 import Lista from "./components/Lista/Lista.jsx";
-import Descricao from "./components/Descricao/Descricao.jsx";
 import Formulario from "./components/Formulario/Formulario.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 
@@ -21,6 +20,8 @@ class App extends React.Component {
             <Sobre />
           </section>
 
+          
+          <h3>Nossas instalações</h3>
           <section id="suitesList">
             <Lista />
           </section>
