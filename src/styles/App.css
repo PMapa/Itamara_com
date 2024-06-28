@@ -1,27 +1,25 @@
 * {
-    text-decoration: none;
-}
-a:visited {
-    text-decoration: none;
-}
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #bfbfbf;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
-a:hover, button:hover, input:hover{
-    color: #f00;
-    font-weight: 600;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #bfbfbf;
+}
+
+a:hover,
+input:hover {
+  color:rgb(0, 15, 15);
+  font-weight: 650;
 }
 
 main {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
+  /* display: flex; */
+  /* flex-flow: column; */
 }
 
-div {
-    padding: 1rem;
+h1, h2, h3, h4, h5, h6{
+  color: rgba(115, 15, 15);
 }

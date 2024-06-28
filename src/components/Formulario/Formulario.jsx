@@ -2,55 +2,104 @@ import React from "react";
 
 import form from "./form.css";
 class Formulario extends React.Component {
+  render() {
+    return (
+      <>
+        <h3>Reserve logo fidumapeste!</h3>
+        <form>
+          <label for="nameInput">Nome:</label>
+          <input
+            className="formulario"
+            type="text"
+            id="nameInput"
+            name="nome"
+            placeholder="Digite seu nome..."
+            required
+          />
 
-    render() {
-        return (
-            <>
-                <h3>Reserve logo fidumapeste!</h3>
-                <form>
-                    <label for="nome" class="formulario">Nome:</label>
-                    <input type="text" id="nameInput" name="nome" required size="10" class="formulario" />
+          <br />
 
-                    <br></br>
-                    <fieldset>
-                        <legend>Selecione a suíte desejada:</legend>
+          <label for="foneInput">Telefone:</label>
+          <input
+            className="formulario"
+            type="tel"
+            id="foneInput"
+            name="telefone"
+            placeholder="(XX) 99999-9999"
+            required
+          />
 
-                        <input type="radio" id="standart" name="quarto" value="standart" />
-                        <label for="standart">Standart</label>
-                        <br></br><br></br>
-                        <input type="radio" id="premium" name="quarto" value="premium" />
-                        <label for="premium">Premium</label>
-                        <br></br><br></br>
-                        <input type="radio" id="supra" name="quarto" value="supra" />
-                        <label for="supra">Supra</label>
-                        <br></br><br></br>
-                        <input type="radio" id="master" name="quarto" value="master" />
-                        <label for="master">Master</label>
-                        <br></br><br></br>
-                        <input type="radio" id="luxo" name="quarto" value="luxo" />
-                        <label for="luxo">Luxo</label>
-                    </fieldset>
+          <br />
 
-                    <br></br>
-                    <label for="data" class="formulario">Data:</label>
-                    <input type="date" id="dataInput" name="data" required class="formulario" />
+          <label for="emailInput">E-mail:</label>
+          <input
+            className="formulario"
+            type="email"
+            id="emailInput"
+            name="email"
+            placeholder="exemplo@Xmail.com"
+            required
+          />
+          <fieldset>
+            <legend>Selecione a suíte desejada:</legend>
 
-                    <br></br>
-                    <label for="hora" class="formulario">Hora:</label>
-                    <input type="time" id="horaInput" name="hora" required class="formulario" />
+            <input type="radio" id="standart" name="quarto" value="standart" />
+            <label for="standart">Standart</label>
+            <br />
+            <input type="radio" id="premium" name="quarto" value="premium" />
+            <label for="premium">Premium</label>
+            <br />
+            <input type="radio" id="supra" name="quarto" value="supra" />
+            <label for="supra">Supra</label>
+            <br />
+            <input type="radio" id="master" name="quarto" value="master" />
+            <label for="master">Master</label>
+            <br />
+            <input type="radio" id="luxo" name="quarto" value="luxo" />
+            <label for="luxo">Luxo</label>
+          </fieldset>
 
-                    <br></br>
-                    <label for="mensagem" class="formulario">Mensagem:</label>
-                    <input type="text" id="mensagemInput" name="mensagem" required size="50" class="formulario" />
+          <label for="dataInput">Data:</label>
+          <input
+            className="formulario"
+            type="date"
+            id="dataInput"
+            name="data"
+            required
+          />
 
-                    <br></br>
-                    <button>Não perca tempo! Faça já sua reserva!</button>
+          <br />
 
-                </form>
-                <br></br>
-            </>
-        );
-    };
-};
+          <label for="horaInput">Hora:</label>
+          <input
+            className="formulario"
+            type="time"
+            id="horaInput"
+            name="hora"
+            required
+          />
+
+          <br />
+
+          <label for="messageInput">Mensagem:</label>
+          <br />
+          <input
+            className="formulario"
+            type="text"
+            id="messageInput"
+            name="mensagem"
+            placeholder="Digite uma mensagem, para agilizar seu atendimento"
+            required
+          />
+
+          <br />
+          <br />
+
+          <button>Não perca tempo! Faça já sua reserva!</button>
+        </form>
+      </>
+    );
+  }
+}
 
 export default Formulario;

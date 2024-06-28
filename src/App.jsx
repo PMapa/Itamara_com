@@ -4,6 +4,7 @@ import './styles/App.css';
 import Header from "./components/Cabecalho/Cabecalho.jsx";
 import Sobre from "./components/Sobre/Sobre.jsx";
 import Lista from "./components/Lista/Lista.jsx";
+
 import Formulario from "./components/Formulario/Formulario.jsx";
 import Rodape from "./components/Rodape/Rodape.jsx";
 
@@ -20,9 +21,9 @@ class App extends React.Component {
             <Sobre />
           </section>
 
-          
+
           <h3>Nossas instalações</h3>
-          <section id="suitesList">
+          <section>
             <Lista />
           </section>
 

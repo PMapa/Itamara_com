@@ -2,14 +2,19 @@
     background-color: aliceblue;
     padding: 1rem;
     margin: 1rem;
-    
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+
     text-align: center;
+    /* justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center; */
+
 }
 
-.formulario {
-    display: block;
-    width: 20rem;
+form, label, input {
+    margin: 1rem;
+}
+
+input {
+    padding: 1rem;
 }

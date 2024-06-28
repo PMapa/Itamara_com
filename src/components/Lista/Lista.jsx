@@ -23,46 +23,48 @@ class Lista extends React.Component {
     render() {
         return (
             <>
-                <div id="cardSuites">
+                <div id="suitesList">
 
-                    <button className="figureCard"
+                    <button className="suiteCard"
                         onClick={() => this.setState({ mostrarDescricaoStandart: !this.state.mostrarDescricaoStandart })
                         }>
-                        <img src={FotoStandart1}></img>
-                        <br></br>
-                        <h3>Suíte Standart</h3>
-                        {this.state.mostrarDescricaoStandart ? "Mostrar menos" : "Mais detalhes"}
+                        <img src={FotoStandart1} alt=""></img>
+                        <div className="description">
+                            <h3>Suíte Standart</h3>
+                            <p>{this.state.mostrarDescricaoStandart ? "Mostrar menos" : "Mais detalhes"}</p>
+                        </div>
                     </button>
 
-                    <button className="figureCard"
-                    onClick={() => this.setState({ mostrarDescricaoPremium: !this.state.mostrarDescricaoPremium })
-                    }>
-                        <img src={FotoPremium1}></img>
-                        <br></br>
-                        <h3>Suíte Premium</h3>
-                        {this.state.mostrarDescricaoPremium ? "Mostrar menos" : "Mais detalhes"}
+                    <button className="suiteCard"
+                        onClick={() => this.setState({ mostrarDescricaoPremium: !this.state.mostrarDescricaoPremium })
+                        }>
+                        <img src={FotoPremium1} alt=""></img>
+                        <div className="description">
+                            <h3>Suíte Premium</h3>
+                            <p>{this.state.mostrarDescricaoPremium ? "Mostrar menos" : "Mais detalhes"}</p>
+                        </div>
                     </button>
 
-                    <button className="figureCard"
-                    onClick={() => this.setState({ mostrarDescricaoSupra: !this.state.mostrarDescricaoSupra })
-                    }>
-                        <img src={FotoSupra1}></img>
-                        <br></br>
-                        <h3>Suíte Supra</h3>
-                        {this.state.mostrarDescricaoSupra ? "Mostrar menos" : "Mais detalhes"}
-                    </button>
+                    <button className="suiteCard"
+                        onClick={() => this.setState({ mostrarDescricaoSupra: !this.state.mostrarDescricaoSupra })
+                        }>
+                        <img src={FotoSupra1} alt=""></img>
+                        <div className="description">
+                            <h3>Suíte Supra</h3>
+                            <p>{this.state.mostrarDescricaoSupra ? "Mostrar menos" : "Mais detalhes"}</p>
+                        </div>
+                    </button >
 
-                    <button className="figureCard"
-                    onClick={() => this.setState({ mostrarDescricaoMaster: !this.state.mostrarDescricaoMaster })
-                    }>
-                        <img src={FotoMaster1}></img>
-                        <br></br>
-                        <h3>Suíte Master</h3>
-                        {this.state.mostrarDescricaoMaster ? "Mostrar menos" : "Mais detalhes"}
-                    </button>
-                </div>
-
-
+                    <button className="suiteCard"
+                        onClick={() => this.setState({ mostrarDescricaoMaster: !this.state.mostrarDescricaoMaster })
+                        }>
+                        <img src={FotoMaster1} alt=""></img>
+                        <div className="description">
+                            <h3>Suíte Master</h3>
+                            <p>{this.state.mostrarDescricaoMaster ? "Mostrar menos" : "Mais detalhes"}</p>
+                        </div>
+                    </button >
+                </div >
 
                 <div>
                     {this.state.mostrarDescricaoStandart ? <DescricaoStandart /> : null}
@@ -70,7 +72,6 @@ class Lista extends React.Component {
                     {this.state.mostrarDescricaoSupra ? <DescricaoSupra /> : null}
                     {this.state.mostrarDescricaoMaster ? <DescricaoMaster /> : null}
                 </div>
-
             </>
         );
     };
