@@ -1,13 +1,21 @@
 #formu {
-  background-color: aliceblue;
+  background-color: rgba(240, 240, 240, 0.6);
   padding: 1rem;
   margin: 1rem;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 
   text-align: center;
   /* justify-content: center;
     justify-items: center;
     align-items: center;
     align-content: center; */
+}
+
+#formDescription {
+  width: 50%;
 }
 
 form,
