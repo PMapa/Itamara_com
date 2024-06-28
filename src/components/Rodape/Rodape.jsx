@@ -14,18 +14,18 @@ class Rodape extends React.Component {
 
     render() {
         return (
-            <div id="rodap">
+            <footer id="rodap">
                 <div className="toe">
                     <div id="socialIcos">
-                        <a href="/">
+                        <a href="https://www.facebook.com/itamara.motel" target="_blank">
                             <img id="facebook" src={faceIco}></img>
                         </a>
 
-                        <a href="/">
+                        <a href="https://www.instagram.com/itamaramotel/" target="_blank">
                             <img id="instagram" src={instaIco}></img>
                         </a>
 
-                        <a href="/">
+                        <a href="https://api.whatsapp.com/send?phone=553198948494" target="_blank">
                             <img id="whatsapp" src={whatsIco}></img>
                         </a>
                     </div>
@@ -58,7 +58,7 @@ class Rodape extends React.Component {
                     [api trip advisor]
                 </div>
 
-            </div>
+            </footer>
         );
     };
 };

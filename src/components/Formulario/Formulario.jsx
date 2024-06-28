@@ -4,10 +4,12 @@ import form from "./form.css";
 class Formulario extends React.Component {
   render() {
     return (
-      <>
-        <h3>Reserve logo fidumapeste!</h3>
+      <section id="formu">
+        <h3>Não perca tempo, faça já sua reserva!</h3>
         <form>
-          <label for="nameInput">Nome:</label>
+          <label for="nameInput">
+            Nome: <span>*</span>
+          </label>
           <input
             className="formulario"
             type="text"
@@ -19,7 +21,9 @@ class Formulario extends React.Component {
 
           <br />
 
-          <label for="foneInput">Telefone:</label>
+          <label for="foneInput">
+            Telefone: <span>*</span>
+          </label>
           <input
             className="formulario"
             type="tel"
@@ -31,7 +35,9 @@ class Formulario extends React.Component {
 
           <br />
 
-          <label for="emailInput">E-mail:</label>
+          <label for="emailInput">
+            E-mail: <span>*</span>
+          </label>
           <input
             className="formulario"
             type="email"
@@ -40,7 +46,19 @@ class Formulario extends React.Component {
             placeholder="exemplo@Xmail.com"
             required
           />
-          <fieldset>
+
+          <br />
+
+          <label for="suiteInput">
+            Selecione a suíte desejada: <span>*</span>
+          </label>
+          <select className="formulario" id="suiteInput" name="suite" required>
+            <option value="Standart">Standart</option>
+            <option value="Premium">Premium</option>
+            <option value="Supra">Supra</option>
+            <option value="Master">Master</option>
+          </select>
+          {/* <fieldset>
             <legend>Selecione a suíte desejada:</legend>
 
             <input type="radio" id="standart" name="quarto" value="standart" />
@@ -57,9 +75,13 @@ class Formulario extends React.Component {
             <br />
             <input type="radio" id="luxo" name="quarto" value="luxo" />
             <label for="luxo">Luxo</label>
-          </fieldset>
+          </fieldset> */}
 
-          <label for="dataInput">Data:</label>
+          <br />
+
+          <label for="dataInput">
+            Data: <span>*</span>
+          </label>
           <input
             className="formulario"
             type="date"
@@ -70,7 +92,9 @@ class Formulario extends React.Component {
 
           <br />
 
-          <label for="horaInput">Hora:</label>
+          <label for="horaInput">
+            Hora: <span>*</span>
+          </label>
           <input
             className="formulario"
             type="time"
@@ -81,7 +105,9 @@ class Formulario extends React.Component {
 
           <br />
 
-          <label for="messageInput">Mensagem:</label>
+          <label for="messageInput">
+            Mensagem: <span>*</span>
+          </label>
           <br />
           <input
             className="formulario"
@@ -95,9 +121,9 @@ class Formulario extends React.Component {
           <br />
           <br />
 
-          <button>Não perca tempo! Faça já sua reserva!</button>
+          <button>FAZER PRÉ-RESERVA</button>
         </form>
-      </>
+      </section>
     );
   }
 }

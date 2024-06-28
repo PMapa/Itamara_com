@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  
 }
 
 body {
@@ -15,11 +16,12 @@ input:hover {
   font-weight: 650;
 }
 
-main {
-  /* display: flex; */
-  /* flex-flow: column; */
-}
+/* main {
+  display: flex;
+  flex-flow: column;
+} */
 
 h1, h2, h3, h4, h5, h6{
   color: rgba(115, 15, 15);
+  padding: 1rem;
 }

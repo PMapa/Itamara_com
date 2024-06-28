@@ -1,5 +1,5 @@
 import React from "react";
-import './styles/App.css';
+import "./styles/App.css";
 
 import Header from "./components/Cabecalho/Cabecalho.jsx";
 import Sobre from "./components/Sobre/Sobre.jsx";
@@ -9,35 +9,22 @@ import Formulario from "./components/Formulario/Formulario.jsx";
 import Rodape from "./components/Rodape/Rodape.jsx";
 
 class App extends React.Component {
-
   render() {
     return (
       <>
-
         <Header />
 
         <main>
-          <section id="sobreNos">
-            <Sobre />
-          </section>
+          <Sobre />
 
+          <Lista />
 
-          <h3>Nossas instalações</h3>
-          <section>
-            <Lista />
-          </section>
-
-          <section id="formu">
-            <Formulario />
-          </section>
+          <Formulario />
         </main>
 
-        <footer>
-          <Rodape />
-        </footer>
-
+        <Rodape />
       </>
     );
-  };
-};
+  }
+}
 export default App;
