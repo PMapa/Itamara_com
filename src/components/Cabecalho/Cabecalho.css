@@ -1,33 +1,42 @@
-header{
-    padding: 0.8rem;
-    background-color: rgba(245, 245, 245, 0.671);
-    /* text-align: center; */
+header {
+  padding-block: 0.8rem;
+  background-color: grey;
 }
 
-#nvb {
-    background-color: aliceblue;
-    font-family: "Caveat", cursive;
-    
-    position: sticky;
-    top: 10rem;
-    z-index: 100;
- 
+nav {
+  background-color: grey;
+  font-family: "Caveat", cursive;
+  height: 6vh;
+  width: 100%;
+  text-align: right;
+  align-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 2;
 }
 
-ul, li { 
-    display: inline-flex;
+nav ul {
+  display: inline-flex;
+  list-style: none;
 }
 
-li {
-    padding-right: 2rem;
+nav ul li {
+  padding-right: 2rem;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+  color: black;
+  transition: 3s;
 }
 
 #logo {
-    width: 18.0rem;
-    border-radius: 3rem;
-    background-color: white;
-}
+  width: 18rem;
+  border-radius: 3rem;
+  background-color: white;
 
-a {
-    color: rgb(115, 15, 15);
+  margin-left: 4rem;
+  margin-top: 5vh;
+  position: relative;
+  z-index: 1;
 }

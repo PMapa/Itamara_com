@@ -25,6 +25,9 @@ select {
   margin: 1rem;
 }
 
+input, select {
+  width: 10rem;
+}
 input,
 select {
   padding: 1rem;

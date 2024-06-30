@@ -5,7 +5,6 @@ class Formulario extends React.Component {
   render() {
     return (
       <>
-        {" "}
         <h3>Não perca tempo, faça já sua reserva!</h3>
         <section id="formu">
           <form>
@@ -95,6 +94,7 @@ class Formulario extends React.Component {
               id="dataInput"
               name="data"
               required
+              placeholder="DD / MM / AAAA"
             />
 
             <br />
@@ -130,25 +130,6 @@ class Formulario extends React.Component {
 
             <button>FAZER PRÉ-RESERVA</button>
           </form>
-
-          <div id="formDescription">
-            <p>
-              SUÍTE STANDARD Tarifas Período (3 horas): R$ 140,00 Hora
-              adicional: R$ 40,00 Pernoite (20h às 12h)* | Café da manhã
-              incluso: R$ 230,00 Day Use (7h às 17h) | 4 Cervejas ou 2 Drinks
-              inclusos: R$ 230,00 Diária (14h às 12h) | Café da manhã incluso: –
-              2ª a 5ª feira: R$ 298,00 – 6ª feira, sábado e domingo: R$ 330,00 –
-              Feriados: R$ 390,00 Feriados específicos, Dia dos Namorados e
-              períodos de alta procura poderão sofrer reajuste nas tarifas.
-              Consulte o valor atualizado antes de fazer sua reserva
-            </p>
-            <table>
-              <thead>
-                <th>Ola</th>
-                <th>Mundo</th>
-              </thead>
-            </table>
-          </div>
         </section>
       </>
     );

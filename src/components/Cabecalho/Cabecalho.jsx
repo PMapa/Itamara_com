@@ -11,12 +11,12 @@ class Header extends React.Component {
             <header>
                 <a href="/">  <img src={logoImg} id="logo"></img>  </a>
 
-                <nav id="nvb">
-                    <ul>
-                        <li> <a href="#sobreNos">Quem Somos</a> </li>
-                        <li> <a href="#suits">Suítes</a> </li>
-                        <li> <a href="#formu">Reservas</a> </li>
-                        <li> <a href="#rodap">Contato</a> </li>
+                <nav>
+                    <ul  id="nvb">
+                        <li className="nav-link"> <a href="#sobreNos">Quem Somos</a> </li>
+                        <li className="nav-link"> <a href="#suits">Suítes</a> </li>
+                        <li className="nav-link"> <a href="#formu">Reservas</a> </li>
+                        <li className="nav-link"> <a href="#rodap">Contato</a> </li>
                     </ul>
                 </nav>
             </header>
