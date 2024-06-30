@@ -1,7 +1,20 @@
 #sobreNos {
-    text-align: justify;
+  display: flex;  
+}
+#sobreNos p {
+  width: 50%;
+  margin: 2rem;
+  font-size: 1rem;
+  text-align: justify;
+  /* min-width: 2rem;
+    max-width: 45rem; */
 }
 
 #imageAbout {
-    display: none;
+  height: 30vh;
+  /* min-width: 2rem;
+    max-width: 45rem; */
+
+  margin: 2rem;
+  border-radius: 0.8rem;
 }

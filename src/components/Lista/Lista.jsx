@@ -44,6 +44,10 @@ class Lista extends React.Component {
             </div>
           </button>
 
+          <div>
+            {this.state.mostrarDescricaoStandart ? <DescricaoStandart /> : null}
+          </div>
+
           <button
             className="suiteCard"
             onClick={() =>
@@ -62,6 +66,10 @@ class Lista extends React.Component {
               </p>
             </div>
           </button>
+
+          <div>
+            {this.state.mostrarDescricaoPremium ? <DescricaoPremium /> : null}
+          </div>
 
           <button
             className="suiteCard"
@@ -82,6 +90,10 @@ class Lista extends React.Component {
             </div>
           </button>
 
+          <div>
+            {this.state.mostrarDescricaoSupra ? <DescricaoSupra /> : null}
+          </div>
+
           <button
             className="suiteCard"
             onClick={() =>
@@ -100,15 +112,13 @@ class Lista extends React.Component {
               </p>
             </div>
           </button>
+
+          <div>
+            {this.state.mostrarDescricaoMaster ? <DescricaoMaster /> : null}
+          </div>
         </div>
 
         {/* Colocar condição para apenas aperecer um tipo quando clica em todos ao mesmo tempo */}
-        <div>
-          {this.state.mostrarDescricaoStandart ? <DescricaoStandart /> : null}
-          {this.state.mostrarDescricaoPremium ? <DescricaoPremium /> : null}
-          {this.state.mostrarDescricaoSupra ? <DescricaoSupra /> : null}
-          {this.state.mostrarDescricaoMaster ? <DescricaoMaster /> : null}
-        </div>
       </section>
     );
   }

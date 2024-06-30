@@ -15,6 +15,7 @@ class App extends React.Component {
         <Header />
 
         <main>
+          <h3 id="about">Sobre nós</h3>
           <Sobre />
 
           <Lista />
