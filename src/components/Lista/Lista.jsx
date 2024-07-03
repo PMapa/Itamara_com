@@ -44,10 +44,6 @@ class Lista extends React.Component {
             </div>
           </button>
 
-          <div>
-            {this.state.mostrarDescricaoStandart ? <DescricaoStandart /> : null}
-          </div>
-
           <button
             className="suiteCard"
             onClick={() =>
@@ -67,6 +63,9 @@ class Lista extends React.Component {
             </div>
           </button>
 
+          <div>
+            {this.state.mostrarDescricaoStandart ? <DescricaoStandart /> : null}
+          </div>
           <div>
             {this.state.mostrarDescricaoPremium ? <DescricaoPremium /> : null}
           </div>
@@ -90,10 +89,6 @@ class Lista extends React.Component {
             </div>
           </button>
 
-          <div>
-            {this.state.mostrarDescricaoSupra ? <DescricaoSupra /> : null}
-          </div>
-
           <button
             className="suiteCard"
             onClick={() =>
@@ -113,6 +108,9 @@ class Lista extends React.Component {
             </div>
           </button>
 
+          <div>
+            {this.state.mostrarDescricaoSupra ? <DescricaoSupra /> : null}
+          </div>
           <div>
             {this.state.mostrarDescricaoMaster ? <DescricaoMaster /> : null}
           </div>

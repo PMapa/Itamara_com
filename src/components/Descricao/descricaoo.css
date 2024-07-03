@@ -1,7 +1,21 @@
 .descricaoArea {
     background-color: aliceblue;
-
-    padding: 1rem 2rem;
+    text-align: justify;
     display: flex;
-    background-color: aliceblue;
+    padding: 0 1rem;
+}
+
+table {
+    border-spacing: 0rem 1rem;
+    border-collapse: separate;
+    width: 10rem;
+    margin-left: 1.0rem;
+    font-size: 0.7rem;
+}
+
+.observacoes {
+    background-color: bisque;
+    text-align: justify;
+    padding-inline: 1rem;
+    font-size: 0.66rem;
 }

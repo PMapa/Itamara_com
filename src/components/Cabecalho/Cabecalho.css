@@ -4,8 +4,12 @@ header {
 }
 
 nav {
-  background-color: grey;
-  font-family: "Caveat", cursive;
+  background: transparent;
+  backdrop-filter: blur(10px);
+
+  /* background-color: grey; */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   height: 6vh;
   width: 100%;
   text-align: right;
@@ -21,7 +25,7 @@ nav ul {
 }
 
 nav ul li {
-  padding-right: 2rem;
+  padding-inline: 0.8rem;
 }
 
 nav ul li:hover {

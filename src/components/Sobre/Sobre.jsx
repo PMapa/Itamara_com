@@ -6,22 +6,25 @@ class Sobre extends React.Component {
   render() {
     return (
       <div id="sobreNos">
-        <div>
+        <div id="textoAbout">
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut
-            maxime, molestiae unde quidem blanditiis est iusto. Error, excepturi
-            velit nostrum explicabo alias in et vitae quo, expedita, cumque
-            perspiciatis non? Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Perferendis placeat molestias asperiores distinctio natus
-            eaque sapiente eum eos ad ipsa adipisci cupiditate, quaerat
-            laboriosam blanditiis tempora impedit error ut corporis? Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Inventore nulla
-            similique consequuntur odit, voluptas ipsa voluptatem autem deserunt
-            saepe iste, nesciunt sunt repudiandae accusamus modi voluptatibus
-            quidem non, vitae dolore. Lorem ipsum dolor sit.
+          <h3>Sobre nós</h3>
+            O <span>Itamara</span> atua a mais de 25 anos para atender o público
+            da Região dos Inconfidentes com localização privilegidada entre{" "}
+            <span>Ita</span>birito e<span> Amara</span>ntina, às margens da
+            Rodovia dos Inconfidentes (BR356).
+            <br />
+            <br />
+            uma opção diferenciada no ramo de hospedagem e motelaria. Com suítes
+            que estabelecem um novo padrão de conceito, buscamos em cada
+            detalhe, uma oportunidade para surpreender você.
+            <br />
+            <br />
+            Fique por dentro de novidades e promoções inéditas em nossas redes
+            sociais.
           </p>
         </div>
-        <div>
+        <div id="fotoFachada">
           <img src={motelFachada} alt="" id="imageAbout" />
         </div>
       </div>

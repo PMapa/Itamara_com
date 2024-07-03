@@ -13,9 +13,10 @@ class Header extends React.Component {
 
                 <nav>
                     <ul  id="nvb">
-                        <li className="nav-link"> <a href="#about">Quem Somos</a> </li>
+                        <li className="nav-link"> <a href="#sobreNos">Home</a> </li>
                         <li className="nav-link"> <a href="#suits">Suítes</a> </li>
                         <li className="nav-link"> <a href="#formu">Reservas</a> </li>
+                        <li className="nav-link"> <a href="#about">Cardápio</a> </li>
                         <li className="nav-link"> <a href="#rodap">Contato</a> </li>
                     </ul>
                 </nav>
