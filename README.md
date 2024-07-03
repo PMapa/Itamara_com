@@ -1,3 +1,12 @@
+Olá! 
+
+Aqui é o PMapa e este é o amontoado de arquivos e conhecimento que gerei a partir de uma necessidade que surgiu de programar um site.
+
+
+
+
+-- A partir de aqui algumas informações que o React gerou
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
