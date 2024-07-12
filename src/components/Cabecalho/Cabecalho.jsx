@@ -21,7 +21,6 @@ class Header extends React.Component {
                     </ul>
                 </nav>
             </header>
-
         );
     };
 };

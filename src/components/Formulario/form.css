@@ -14,9 +14,9 @@
     align-content: center; */
 }
 
-#formDescription {
+/* #formDescription {
   width: 50%;
-}
+} */
 
 form,
 label {
@@ -29,6 +29,11 @@ select {
   padding: 1rem;
   margin: 0.5rem;
   border-radius: 0.5rem;
+}
+
+input:hover, select:hover {
+  color:rgb(0, 15, 15);
+  font-weight: 650;
 }
 
 label {

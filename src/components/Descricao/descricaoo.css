@@ -1,5 +1,5 @@
 .descricaoArea {
-    background-color: aliceblue;
+    background-color: #b4d0ff;
     text-align: justify;
     display: flex;
     padding: 0 1rem;
@@ -14,7 +14,7 @@ table {
 }
 
 .observacoes {
-    background-color: bisque;
+    background-color: #ffa586;
     text-align: justify;
     padding-inline: 1rem;
     font-size: 0.66rem;

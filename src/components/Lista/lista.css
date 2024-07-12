@@ -6,9 +6,10 @@
 
     /* overflow: hidden; */
     /* align-content: space-around; */
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;    
 }
+
+
 
 .suiteCard {
     border-radius: 0.8rem;
@@ -39,6 +40,8 @@
     /* filter: grayscale(0); */
 }
 
+
+
 .description {
     position: absolute;
     bottom: 0rem;
@@ -63,7 +66,6 @@
 }
 
 button:hover .description p{
-    transition-delay: 0.6;
+    transition-delay: 0.6ms;
     opacity: 1;
 }
-

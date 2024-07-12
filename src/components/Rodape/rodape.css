@@ -1,9 +1,5 @@
-/* footer {
-    
-} */
-
 #rodap {
-    background-color: #232323;
+    background-color: #384358;
     color: aliceblue;
     padding: 1rem;
 
@@ -15,17 +11,17 @@
 
 }
 
-
 .toe {
     width: 15rem;
     height: 15rem;
 
     align-content: center;
 }
+
 .toe p{
     display: flex;
-
 }
+
 .toe p img{
     padding-right: 0.5rem;
 }
